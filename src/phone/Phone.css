@@ -1,0 +1,320 @@
+.bg-phone-home {
+    display: block;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.fullscreen-phone, .bg-phone-home {
+    width: 100vw;
+    height: 100vh;
+}
+
+.flex-row, .flex-col {
+    display: flex;
+    align-items: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.relative {
+    position: relative;
+}
+
+.daniel-phone {
+    position: absolute;
+    top: 50.2vh;
+    right: 3vw;
+    display: block;
+    object-fit: cover;
+    height: 50vh;
+}
+
+.dscoimbra-phone {
+    font-family: "Logo", sans-serif;
+    font-size: 8vw;
+    font-weight: 600;
+    color: var(--dark-green);
+    margin-bottom: 0;
+}
+
+.sols360-phone {
+    font-family: "Logo", sans-serif;
+    font-size: 6vw;
+    color: var(--ll-green);
+    margin: 0.5vw;
+    margin-left: 1vw;
+}
+
+.home-text-box-phone {
+    width: 60vw;
+    background: var(--transparent);
+    align-self: flex-end;
+}
+
+.home-title-phone {
+    font-family: "Montserrat", sans-serif;
+    font-size: 5vw;
+    margin: 5vw 0;
+    font-weight: 600;
+    color: black;
+}
+
+.home-text-phone {
+    color: white;
+    font-size: 4vw;
+    margin: 0;
+}
+
+.daniel-text-box {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: 6vw;
+    top: 30vh;
+}
+
+.daniel-name-phone {
+    font-family: "Caveat", serif !important;    
+    font-size: 10vw;
+    font-weight: 600;
+    margin: 0;
+    color: var(--green);
+}
+
+.daniel-sub-phone {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 4vw;
+    margin: 0;
+    margin-top: -1vw;
+}
+
+.daniel-but-phone {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 3vw;
+    color: white;
+    background: var(--logo-green);
+    margin: 0;
+    margin-top: 4vw;   
+    padding: 2vw;
+    cursor: pointer;
+}
+
+.daniel-but-phone:hover, .daniel-but-phone:active {
+    background: var(--grey);
+}
+
+.h1-phone {
+    display: flex;
+    align-items: center;
+    height: 20vw;
+    width: 100vw;
+    background: var(--logo-green);
+}
+
+.logo-ds-phone {
+    margin: 0 2vw;
+    margin-top: 2vw;
+    height: 15vw;
+    display: block;
+    object-fit: cover;
+}
+
+.gar-phone {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    width: 65vw;
+    text-align: center;
+    margin-left: 5vw;
+    font-size: 6vw;
+    color: white;
+}
+
+.offices-phone {
+    width: 100vw;
+    background: var(--light-green);
+}
+
+
+.offices-title-phone {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 8vw;
+    margin: 0;
+    margin-top: 10vw;
+    color: var(--dark-green);
+}
+
+.fotos-row-phone {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foto-main-phone {
+    margin-top: 5vw;
+    display: block;
+    object-fit: cover;
+    width: 80vw;
+}
+
+.foto-sec-phone {
+    display: block;
+    object-fit: cover;
+    width: 39vw;
+    max-height: 25vw;
+    margin: 2vw 0;
+    margin-bottom: 5vw;
+}
+
+.maps-link {
+    text-decoration: none;
+}
+
+.location-ico-phone {
+    margin-left: 1vw;
+    font-size: 5vw;
+}
+
+.maps-button-phone {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background: var(--dark-green);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 5vw;
+    padding: 2vw 3vw;
+    margin-top: 4vw;
+    margin-bottom: 10vw;
+}
+
+.maps-button-phone:hover, .maps-button-phone:active {
+    background: var(--grey);
+}
+
+.offices-text-phone {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 4vw;
+    margin: 0;
+    color: var(--dark-green);
+}
+
+.client-form-phone {
+    width: 100vw;
+    background: var(--light-grey);
+}
+
+
+
+.send-button-phone {
+    color: white;
+    background: var(--dark-green);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 5vw;
+    padding: 2vw 3vw;
+    margin-bottom: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.send-button-phone:hover, .send-button-phone:active {
+    background: var(--grey);
+}
+
+.check-box-phone {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2vw;
+    width: 78vw;
+    border-radius: 1.5vw;
+    margin-bottom: 5vw;
+    margin-top: 1vw;
+}
+
+.check-box-phone:hover, .check-box-phone:active {
+    background: #cccccc;
+    cursor: pointer;
+}
+
+.priv-stat-phone {
+    margin-top: 5vw !important;
+}
+
+.check-text-phone, .priv-stat-phone {
+    width: 80vw;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 4vw;
+}
+
+.checked-color {
+    color: var(--dark-green);
+}
+
+.contact-checkbox-phone {
+    border: solid var(--dark-green) 0.4vw;
+    color: rgba(0,0,0,0);
+    font-size: 3vw;
+    height: 3.5vw;
+    width: 3.5vw;
+    border-radius: 1.5vw;
+    margin-right: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-phone {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--grey);
+}
+
+.pdp-phone {
+    text-decoration: none;
+}
+
+.pdp-phone:hover, .pdp-phone:active {
+    color: var(--ll-green);
+}
+
+.footer-sep-phone {
+    margin: 0 10px;
+}
+
+.pdp-phone, .tm-phone, .footer-sep-phone {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2.5vw;
+}
+
+.mid-banner-phone {
+    background: var(--logo-green);
+    width: 100vw;
+    height: 20vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 5.5vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

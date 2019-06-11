@@ -1,0 +1,81 @@
+.client-div {
+    margin-top: 1.5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.client-input {
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+    appearance: none;
+    -webkit-appearance: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(34, 34, 34);
+    background-color: #fff;
+    display: inline-block;
+    padding: 0 0.4em;
+    vertical-align: middle;
+    height: 2vw;
+    width: 18vw;
+}
+
+.client-legend {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.2vw;
+    margin: 0;
+    margin-bottom: 0.3vw;
+    color: var(--text-grey);
+}
+
+.error-text {
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.1vw;
+    text-align: end;    
+    color: var(--dark-green);
+}
+
+.client-div-phone {
+    margin-top: 6vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.client-input-phone {
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+    appearance: none;
+    -webkit-appearance: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vw;
+    color: rgb(34, 34, 34);
+    background-color: #fff;
+    display: inline-block;
+    padding: 0 0.8em;
+    vertical-align: middle;
+    height: 6vw;
+    width: 60vw;
+}
+
+.client-legend-phone {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 4vw;
+    margin: 0;
+    margin-bottom: 0.3vw;
+    color: var(--text-grey);
+}
+
+.error-text-phone {
+    margin: 0;
+    font-weight: 600;
+    font-size: 3.5vw;
+    text-align: end;    
+    color: var(--dark-green);
+}

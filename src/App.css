@@ -1,0 +1,133 @@
+#app {
+    width: calc(100vw - 17px);
+}
+
+#home-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: var(--transparent);
+}
+
+.background {
+    width: calc(100vw - 17px);
+    height: 70vh;
+    position: absolute;
+    display: block;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.osx {
+    width: 100vw !important;
+}
+
+#equipa {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#foto-equipa {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+.equipa-box{
+    width: 33vw;
+}
+
+.equipa-box-osx {
+    width: calc(100vw / 3) !important;
+}
+
+.bgg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--ll-green);
+}
+
+#vantagens-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 20px;
+    color: var(--dark-green);
+}
+
+#vantagens-text {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600; 
+    letter-spacing: 1px;
+    width: 525px;
+    text-align: justify;
+    color: var(--dark-green);
+}
+
+.equipa-row {
+    display: flex;
+    width: 100%;
+}
+
+#equipa-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+}
+
+#daniel {
+    height: 55vh;
+    margin-bottom: -2vh;
+    margin-left: -8vh;
+}
+
+#daniel-around {
+    width: 90%;
+    padding-right: 10%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#imov-title, #imov-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 80px;
+    color: var(--logo-green);
+    margin: 0;
+}
+
+#imov-title {
+    font-family: "Caveat", serif !important;
+}
+
+#imov-subtitle {
+    margin-top: -10px;
+    font-size: 30px !important;
+    color: var(--grey) !important;
+}
+
+
+#imov-button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: white;
+    background: var(--logo-green);
+    margin: 40px;   
+    padding: 15px;
+    cursor: pointer;
+}
+
+#imov-button:hover {
+    background: var(--grey);
+}

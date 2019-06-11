@@ -1,0 +1,345 @@
+#logo-row, #banner-row {
+    height: 15vh;
+    background: var(--logo-green);
+}
+
+#banner-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 6vh;
+    color: white;
+}
+
+.green-text {
+    color: var(--ll-green);
+}
+
+#home-text {
+    height: 70vh;
+    flex-direction: column;
+}
+
+#logo-row, #home-text, #banner-row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+#logo-row {
+    width: 94% !important;
+    padding: 0 3%;
+    justify-content: space-between !important;
+}
+
+#logo-sols {
+    position: absolute;
+    left: calc(49.5vw - 6vh);
+    margin-top: 1vh;
+    height: 12vh;
+    width: 12vh;
+}
+
+#logo-sol-360 {
+    font-size: 7vh !important;
+    font-family: "Montserrat", sans-serif !important;
+}
+
+#logo-coimbra, #logo-sol-360 {
+    font-family: "Logo", sans-serif;
+    font-size: 8vh;
+    font-weight: 600;
+    color: white;
+}
+
+#footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--grey);
+}
+
+#pdp {
+    text-decoration: none;
+}
+
+#pdp:hover {
+    color: var(--ll-green);
+}
+
+#footer-sep {
+    margin: 0 10px;
+}
+
+#pdp, #tm, #footer-sep {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.home-title {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.low-text {
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#text-box {
+    width: 875px;
+    padding: 10px;
+}
+
+#offices-title, #contactus-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2.2vw;
+    margin: 0;
+    margin-top: 3vw;
+    color: var(--dark-green);
+}
+
+#contactus-title {
+    margin: 0;
+}
+
+.fotos-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fotos-row {
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foto-main {
+    margin-top: 1vw;
+    display: block;
+    object-fit: cover;
+    width: 25vw;
+}
+
+.foto-sec {
+    display: block;
+    object-fit: cover;
+    width: 12vw;
+    max-height: 8vw;
+    margin: 1vw 0;
+    margin-bottom: 2vw;
+}
+
+#maps-link {
+    text-decoration: none;
+}
+
+.location-ico {
+    margin-left: 0.5vw;
+    font-size: 2vw;
+}
+
+#maps-button {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background: var(--dark-green);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.5vw;
+    padding: 0.8vw 1.5vw;
+    margin: 2vw;
+}
+
+#maps-button:hover {
+    background: var(--grey);
+}
+
+.offices-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.3vw;
+    margin: 0;
+    color: var(--dark-green);
+}
+
+#client-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-bg {
+    width: 33vw;
+    height: 100%;
+    padding-top: 3vw;
+    background: var(--light-grey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#team-pic {
+    display: block;
+    object-fit: cover;
+    width: 25vw;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+}
+
+.side-flex {
+    display: flex;
+}
+
+#quem-somos {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2.2vw;
+    color: var(--dark-green);
+    margin: 0;
+    margin-top: 3vw;
+}
+
+#aboutus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33vw;
+}
+
+.quem-text {
+    text-align: justify;
+    letter-spacing: 0.5px;
+    width: 25vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1vw;
+    margin: 0;
+}
+
+.title {
+    font-weight: 600;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    font-size: 1.5vw;
+}
+
+#send-button {
+    color: white;
+    background: var(--dark-green);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.7vw;
+    padding: 0.8vw 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#send-button:hover {
+    background: var(--grey);
+}
+
+#check-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1vw;
+    width: 23vw;
+    border-radius: 1vw;
+    margin-bottom: 2vw;
+    margin-top: 1vw;
+}
+
+#check-box:hover {
+    background: #cccccc;
+    cursor: pointer;
+}
+
+#priv-statement {
+    margin-top: 2vw;
+}
+
+.check-text {
+    width: 23vw;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.2vw;
+}
+
+.checked-color {
+    color: var(--dark-green);
+}
+
+#contact-checkbox {
+    border: solid var(--dark-green) 0.25vw;
+    color: rgba(0,0,0,0);
+    font-size: 2vw;
+    height: 2vw;
+    width: 2vw;
+    border-radius: 1vw;
+    margin-right: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.disabled-button {
+    background: var(--text-grey) !important;
+    cursor: default !important;
+}
+
+
+
+
+/*
+    MEDIA QUERIES
+*/
+
+
+
+@media screen and (max-width: 1100px) {
+    #daniel-around {
+        width: 98% !important;
+        padding-right: 2% !important;
+    }
+
+    #text-box {
+        width: 700px !important;
+    }
+
+    .home-title {
+        font-size: 40px !important;
+        margin: 0;
+    }
+
+    .low-text {
+        font-size: 18px !important;
+    }
+
+    .quem-text {
+        font-size: 1.2vw !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #logo-coimbra, #logo-sol-360 {
+        font-size: 7vh !important;
+    }
+
+    #banner-text {
+        font-size: 5.5vh !important;
+    }
+}

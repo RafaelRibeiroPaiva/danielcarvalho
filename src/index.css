@@ -1,0 +1,35 @@
+:root {
+  --light-green: #C9D203;
+  --ll-green: #C2D931;
+  --green: #084037;
+  --dark-green: #004136;
+  --logo-green: #00483A;
+
+  --grey: #363636;
+  --light-grey: #e2e2e2;
+  --text-grey: rgb(119, 119, 119);
+
+  --transparent: rgba(0,0,0,0.7);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "Logo";
+  font-weight: 400;
+  src: url('./fonts/logo.ttf');
+}
+
+@font-face {
+  font-family: "Logo";
+  font-weight: 700;
+  src: url('./fonts/logobold.ttf');
+}
