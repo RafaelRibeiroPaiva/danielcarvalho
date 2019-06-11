@@ -5,7 +5,7 @@ export default class AboutUs extends React.Component {
     render() {
         return (
             <div id="aboutus" className={global.isOSX() ? "equipa-box-osx" : ""}>
-                <h5 id="quem-somos">Quem Somos</h5>
+                <h5 id="quem-somos">A Nossa Marca</h5>
                 <img alt="A nossa equipa" id="team-pic" src={imgs.teampic} />
                 <p className="quem-text">{somos}</p>
                 <p className="quem-text title">Email</p>
